@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Then navigate to [http://localhost:17100](http://localhost:17100).
+Then navigate to [https://localhost:17100](https://localhost:17100).
 
 ## Commit Messages
 
