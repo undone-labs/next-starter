@@ -1,0 +1,98 @@
+/**
+ * Global styles, fonts, text, etc.
+ *
+ * See utilities.scss to edit these vars.
+ */
+
+@use 'normalize';
+@use 'reset';
+@use 'grid/gridlex-2.7.1';
+@use 'layout-grid';
+
+// ///////////////////////////////////////////////////////////////////// General
+// -----------------------------------------------------------------------------
+body {
+  @include selection-light;
+  color: $holly;
+  font-size: 16px;
+  font-family: $font_Primary;
+  font-weight: 400;
+  background-color: $cararra;
+  transition: background-color 250ms;
+  &.no-scroll {
+    overflow-y: hidden;
+  }
+  &.no-cursor {
+    cursor: none;
+  }
+}
+
+// ////////////////////////////////////////////////////////////////// Typography
+// -----------------------------------------------------------------------------
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: $font_Primary;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  display: block;
+  text-transform: none;
+}
+
+h1, .h1 {
+  @include h1;
+}
+
+h2, .h2 {
+  @include h2;
+}
+
+h3, .h3 {
+  @include h3;
+}
+
+h4, .h4 {
+  @include h4;
+}
+
+h5, .h5 {
+  @include h5;
+}
+
+h6, .h6 {
+  @include h6;
+}
+
+p,
+.p1,
+div,
+a,
+button {
+  @include p1;
+}
+
+// //////////////////////////////////////////////////////////////////// Elements
+// -----------------------------------------------------------------------------
+pre {
+  @include blockCode;
+  code {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+  }
+}
+
+code {
+  @include inlineCode;
+}

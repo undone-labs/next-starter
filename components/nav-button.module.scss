@@ -1,0 +1,11 @@
+.button {
+  background-color: teal;
+  padding: toRem(10) toRem(20);
+  border-radius: toRem(5);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  &:hover {
+    background-color: tomato;
+  }
+}

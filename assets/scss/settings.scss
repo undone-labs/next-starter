@@ -1,0 +1,30 @@
+/**
+ * This file should NOT contain any styling (classes or IDs). It should only
+ * contain variables, functions, mixins, etc.
+ */
+
+// ///////////////////////////////////////////////////////////////////// General
+// -----------------------------------------------------------------------------
+
+/**
+ * Never remove any of the below settings, only ever update their values
+ * project-to-project.
+ */
+
+$gridWidth: 60rem;
+$standardGutter: 1.5rem;
+$baseFontSize: 16;
+$baseLeading: 1.2;
+$baseLetterSpacing: 0px;
+$fontAssetPath: '../fonts';
+
+// ////////////////////////////////////////////////////////////////// Typography
+// -----------------------------------------------------------------------------
+$font_Primary: 'Ysabeau';
+$font_Mono: monospace;
+
+@font-face {
+  font-family: 'Ysabeau';
+  src: url('#{$fontAssetPath}/ysabeau/variable.ttf') format('truetype-variations');
+  font-weight: 100 900;
+}
