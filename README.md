@@ -17,8 +17,6 @@ Then navigate to [https://localhost:17100](https://localhost:17100).
 
 Commit messages should use the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) format. `commitlint` has been installed to validate this usage. This means that all commits should be prefixed appropriately with a tag denoting the kind of code being committed.
 
-The format is enforced using commitlint and Husky, which will prevent commits that don't follow the conventional commits standard.
-
 - `feat:` A feature, or part of a feature
 - `fix:` A bug fix
 - `style:` A visual or stylistic change only
@@ -29,6 +27,8 @@ The format is enforced using commitlint and Husky, which will prevent commits th
 - `cleanup:` Markup and syntactic cleanup that doesn't affect the code output
 - `docs:` Documentation-related changes
 - `content:` Changes to the project's content, such as copy or media
+
+The format is enforced using commitlint and Husky, which will prevent commits that don't follow the conventional commits standard.
 
 Examples of valid commit messages:
 - `feat: add user authentication`
